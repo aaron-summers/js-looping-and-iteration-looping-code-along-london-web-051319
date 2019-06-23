@@ -10,6 +10,6 @@ function writeCards(array, word) {
 function countdown(num) {
   for (let i = num; i >= 0; i--) {
     console.log(num);
-    num-=1;
+    num--;
   }
 }
