@@ -8,9 +8,8 @@ function writeCards(array, word) {
 }
 
 function countdown(num) {
-  for (let i = num; i >= 1; i--) {
+  for (let i = num; i >= 0; i--) {
     console.log(num);
     num-=1;
   }
-  console.log(num);
 }
